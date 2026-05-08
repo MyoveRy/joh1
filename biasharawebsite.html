@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MYOVELLA's TRADERS COMPANY</title>
+    <meta name="description" content="MYOVELLA's Traders Company - Wauzaji wa magari used Dar es Salaam, Tegeta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, blue, yellow, green, blue);
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 85%;
+            max-width: 1100px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+            border-radius: 5px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+        header p {
+            margin-top: 0.8rem;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 1rem;
+            align-items: stretch;
+            flex-wrap: wrap; /* makes it responsive */
+        }
+        .left-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .right-column {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            margin-top: 0.5rem;
+        }
+        .announcement {
+            background: #ffeb99;
+            font-weight: bold;
+            font-size: 1.3rem;
+            padding: 0.8rem;
+            margin-bottom: 0.8rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .info-box {
+            background: #ffe6e6;
+            font-size: 1.1rem;
+            padding: 0.8rem;
+            margin-bottom: 0.8rem;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .contact {
+            background: #cce5ff;
+            padding: 0.8rem;
+            margin-bottom: 0.8rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .contact a::before {
+            content: "📞 ";
+        }
+        .social {
+            background: #d4edda;
+            padding: 0.8rem;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 0.8rem;
+        }
+        .social a {
+            display: inline-block;
+            margin: 0.4rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .social a.whatsapp {
+            color: #25D366;
+        }
+        .social a.whatsapp::before {
+            content: "💬 ";
+        }
+        .social a.instagram {
+            color: #E1306C;
+        }
+        .social a.instagram::before {
+            content: "📷 ";
+        }
+        .business-img {
+            background: #f8d7da;
+            padding: 0.8rem;
+            border-radius: 5px;
+            text-align: center;
+            flex: 1;
+            margin-bottom: 3rem;
+        }
+        .business-img h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+        .business-img img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MYOVELLA's TRADERS COMPANY</h1>
+            <p>NI WAUZAJI WA MAGARI USED</p>
+        </header>
+        <main>
+            <!-- Left column -->
+            <div class="left-column">
+                <div class="announcement">
+                    <p>TUNAPATIKANA JIJINI DAR ES SALAAM WILAYA YA KINONDONI - TEGETA</p>
+                </div>
+                <div class="info-box">
+                    <p>Kwa mawasiliano zaidi tutafute kwa namba zetu na mitandao ya kijamii yetu</p>
+                </div>
+                <div class="contact">
+                    <h2>Tupigie</h2>
+                    <p><a href="tel:0655578633">0655578633</a></p>
+                </div>
+                <div class="social">
+                    <h2>Mitandao ya Kijamii</h2>
+                    <p>
+                        <a class="whatsapp" href="https://wa.me/255655578633" target="_blank">WhatsApp</a>
+                        <a class="instagram" href="https://www.instagram.com/joel_ry_myovella?utm_source=qr&igsh=NnR2aTYxMmk0MnE3" target="_blank">Instagram</a>
+                    </p>
+                </div>
+            </div>
+            <!-- Right column -->
+            <div class="right-column">
+                <div class="business-img">
+                    <h2>MAGARI YETU</h2>
+                    <img src="magari.jpg" alt="Used cars available at MYOVELLA's Traders Company">
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
